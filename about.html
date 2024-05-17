@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <title>New About</title>   
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <header>
+        <h1>About Us </h1>
+        <h4>Our Team: Collaborating for Success</h4>
+    </header>
+    <section class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="card swiper-slide">
+                <div class="card-image">
+                    <img src="image/Aanchal.jpg" alt="">
+                </div>
+                <div class="card_content">
+                    <span class="card_title">Full Stack Web Developer</span>
+                    <span class="card_name">Aanchal Kumari</span>
+                    <p class="card_text">I have been working hard in this filed. I Seek Challenging opportunities where I can enhance my current skills and try to provide best from me and for the success of the Organization.</p>
+                    <button class="card_btn"><a href="https://portfolioaanchal.s3-web.eu-gb.cloud-object-storage.appdomain.cloud" class="card_btn">View More</a></button>
+                </div>
+            </div>
+
+            <div class="card swiper-slide">
+                <div class="card-image">
+                    <img src="image/Tannu.jpeg" alt="">
+                </div>
+                <div class="card_content">
+                    <span class="card_title">Full Stack Web Developer</span>
+                    <span class="card_name">Tannu Dhanda</span>
+                    <p class="card_text">My name is Tannu dhanda. I live in Panipat. I am an expert in Web Researching, Data Entry, Data Extracting, and Data researching. I have been working hard in this field. Currently, I am doing my bachelor of arts from IGNOU.</p>
+                    <button class="card_btn"><a href="https://tannu123.s3-web.eu-gb.cloud-object-storage.appdomain.cloud" class="card_btn">View More</a></button>
+
+                </div>
+            </div>
+
+            <div class="card swiper-slide">
+                <div class="card-image">
+                    <img src="image/anju.jpeg" alt="">
+                </div>
+                <div class="card_content">
+                    <span class="card_title">Full Stack Web Developer</span>
+                    <span class="card_name">Anju Kumari</span>
+                    <p class="card_text">I am Anju Kumari. I am student at NSTI(Noida). I am pursuing my ADIT(Advanced Diploma in IT Networking and Cloud Computing). I am also pursuing BA Political(Hons) from IGNOU University.</p>
+                    <button class="card_btn"><a href="https://portfolio12.s3-web.eu-gb.cloud-object-storage.appdomain.cloud" class="card_btn">View More</a></button>
+                </div>
+            </div>
+
+            <div class="card swiper-slide">
+                <div class="card-image">
+                    <img src="image/Kamal.jpeg" alt="">
+                </div>
+                <div class="card_content">
+                    <span class="card_title">Full Stack Web Developer</span>
+                    <span class="card_name">Kamal</span>
+                    <p class="card_text">I'm Creative Developer and Designer from Narwana,Jind, Haryana, working in web development and Social media. I enjoy turning complex problems into simple, beautiful and intuitive designs.</p>
+                    <button class="card_btn"><a href="https://portfoliokamal.s3-web.eu-gb.cloud-object-storage.appdomain.cloud/" class="card_btn">View More</a></button>
+                </div>
+            </div>
+
+            <div class="card swiper-slide">
+                <div class="card-image">
+                    <img src="image/payal1.jpeg" alt="">
+                </div>
+                <div class="card_content">
+                    <span class="card_title">Full Stack Web Developer</span>
+                    <span class="card_name">Payal</span>
+                    <p class="card_text">I am a Full-Stack developer based in delhi, India. I am pursuing BCA in final year. I am very passionate about improving my coding skills & developing applications & websites.</p>
+                    <button class="card_btn"><a href="https://portfolio4.s3-web.eu-gb.cloud-object-storage.appdomain.cloud/" class="card_btn">View More</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 1000, 
+        autoplayHoverPause: true,
+
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+            rotation: 0,
+            stretch: 0,
+            depth: 900,
+            modifier: 0.90,
+            slideShadows: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+        },
+    });
+</script>
+</body>
+</html>
